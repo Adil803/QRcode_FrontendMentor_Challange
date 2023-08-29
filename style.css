@@ -1,0 +1,44 @@
+body {
+    font-family: 'outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.attribution {
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.align{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+min-height: 100vh; /*Responsive for all devices*/
+
+
+}
+.container{
+    background-color: white;
+    border-radius: 1rem;
+    width: 18.75rem;
+    height: 31.25rem;
+    text-align: center;
+    padding: 1rem;
+}
+img{
+    width:100%;
+    border-radius:1rem ;
+}
+h3{
+   font-size: 1.3rem;
+    color:hsl(218, 44%, 22%);
+}
+div p {
+    font-size: 1rem;
+    color:hsl(220, 15%, 55%);
+}
